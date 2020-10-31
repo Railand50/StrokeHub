@@ -14,7 +14,7 @@ const SectionsScreen = ({ navigation, sections, route }) => {
 			onPress={() => {
 			if (item.type == "sections") {
 				console.log(item.body)
-				navigation.navigate("Sections", item );
+				navigation.push("Sections", item );
 			} else {
 				navigation.navigate("Details", item); 
 				}
