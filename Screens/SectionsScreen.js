@@ -5,7 +5,7 @@ import SectionCell from "../Components/SectionCell";
 
 
 
-const SectionsScreen = ({ navigation, sections, route }) => {
+const SectionsScreen = ({ navigation, route }) => {
 	const renderItem = ({ item }) => {
 		return <SectionCell
 			thumbnail={item.thumbnail}
@@ -22,13 +22,13 @@ const SectionsScreen = ({ navigation, sections, route }) => {
 		/>;
 	};
  
-	if (sections == undefined) {
-		navigation.setOptions({title: route.params.title})
-	}
+
+	navigation.setOptions({title: route.params.title})
+
 	return (
 		<SafeAreaView>  
 			<FlatList
-				data={ sections || route.params.body }
+				data={route.params.body }
 				renderItem={renderItem}
 			/>
 		</SafeAreaView>

@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Image, Text } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-const HomeCell = (props) => {
+const SectionCell = (props) => {
 	return (
 	<TouchableOpacity
 		style={styles.row}
@@ -54,4 +54,4 @@ const styles = StyleSheet.create({
 	},
 });
 
-export default HomeCell;
+export default SectionCell;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, SafeAreaView, View, Image, Text } from 'react-native';
-import { FlatList, ScrollView } from 'react-native-gesture-handler';
+import { ScrollView } from 'react-native-gesture-handler';
 
 import { DetailsHeader, DetailsImage, DetailsParagraph } from "../Components/DetailsComponents";
 
