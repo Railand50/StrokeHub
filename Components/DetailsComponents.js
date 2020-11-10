@@ -31,18 +31,19 @@ const styles = StyleSheet.create({
 	},
 
 	imageContainer: {
-		height: 200,
+		width: 430,
+		height: 295, 
 		marginTop: -20,
-		marginHorizontal: 16,
+		marginHorizontal: 0,
 		borderRadius: 8,
-		overflow: "hidden",
+		overflow: "hidden", 
 		backgroundColor: "lightgray",
 	},
 
 	img: {
 		flex: 1,
 		width: null,
-		height: null,
+		height:500,
 	},
 });
 

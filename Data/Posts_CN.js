@@ -6,7 +6,7 @@ export default Posts_CN = [
 		title: "Learning about Stroke",
 		subtitle: "What is a stroke?",
 		body: [
-			{
+			{ 
 				type: "sections",
 				thumbnail: require("../assets/stroke.jpg"),
 				title: "Learning about Stroke",

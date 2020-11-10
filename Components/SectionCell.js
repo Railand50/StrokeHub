@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
 	},
 
 	imageWrapper: {
-		height: 250,
-		margin: 16,
+		height: 125,
+		margin: 8,
 		borderRadius: 8,
 		overflow: "hidden",
 	},
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
 
 	title: {
 		marginHorizontal: 16,
-		marginBottom: 8,
+		marginBottom: 0,
 		fontWeight: "bold",
 		fontSize: 20,
 	},
@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
 		marginHorizontal: 16,
 		fontStyle: "italic",
 		opacity: 0.5,
+		marginBottom: 16,
 	},
 });
 
