@@ -1,8 +1,10 @@
 import React from 'react';
-import { SafeAreaView, FlatList, Image, StyleSheet } from 'react-native';
+import { SafeAreaView, FlatList, Image, StyleSheet, Dimensions } from 'react-native';
 import LanguageCell from "../Components/LanguageCell";
 
 import Posts from "../Data/Posts";
+
+const { width } = Dimensions.get("window");
 
 const LanguageScreen = ({ navigation }) => {
 	const renderItem = ({ item }) => {
@@ -14,29 +16,34 @@ const LanguageScreen = ({ navigation }) => {
 		/>;
 	};
 
+	const logo = require("../assets/logo.png");
+	const source = Image.resolveAssetSource(logo);
+	const imageHeight = source.height * width / source.width;
+
 	return (
-		<SafeAreaView>  
+		<SafeAreaView style={styles.container}>  
 			<FlatList
 				data={Posts}
 				renderItem={renderItem}
 			/>
 			<Image
-                style={styles.tinyLogo}
-                source={require("../assets/logo.png")}
+                style={{
+					width: width * 0.5,
+					height: imageHeight * 0.5,
+					alignSelf: 'center'
+				}}
+                source={logo}
             />
 		</SafeAreaView>
 	);
 };
 
 const styles = StyleSheet.create({
-	img: {
+	container: {
 		flex: 1,
-		width: null,
-		height: null,
-	},
-	tinyLogo: {
-        width: 300,
-        height: 300,
-    },
+		justifyContent: 'space-between'
+	}
+
 });
+
 export default LanguageScreen;

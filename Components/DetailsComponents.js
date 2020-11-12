@@ -1,18 +1,26 @@
 import React from 'react';
-import { StyleSheet, View, Image, Text } from 'react-native';
+import { StyleSheet, Image, Text, Dimensions } from 'react-native';
+
+const { width } = Dimensions.get("window");
 
 const DetailsHeader = (props) => <Text style={styles.h1}>{props.content}</Text>;
 
 const DetailsParagraph = (props) => <Text style={styles.p}>{props.content}</Text>;
 
-const DetailsImage = (props) => (
-	<View style={styles.imageContainer}>
-		<Image
-			style={styles.img}
+const DetailsImage = (props) => {
+	const source = Image.resolveAssetSource(props.content);
+	const imageHeight = source.height * width / source.width;
+
+	return (
+		<Image 
+			style={{
+				width: width,
+				height: imageHeight
+			}} 
 			source={props.content}
 		/>
-	</View>
-);
+	);
+}
 
 const styles = StyleSheet.create({
 	h1: {
@@ -28,23 +36,6 @@ const styles = StyleSheet.create({
 		marginTop: 8,
 		fontSize: 18,
 		textAlign: "justify",
-	},
-
-	imageContainer: {
-		width: 430,
-		height: 295, 
-		
-		marginTop: 0,
-		marginHorizontal: 0,
-		borderRadius: 8,
-		overflow: "hidden", 
-		backgroundColor: "lightgray",
-	},
-
-	img: {
-		flex: 1,
-		width: null,
-		height: null,
 	},
 });
 
