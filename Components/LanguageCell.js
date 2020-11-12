@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet, Text, Image } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const LanguageCell = (props) => {
@@ -21,6 +21,11 @@ const styles = StyleSheet.create({
         marginBottom: 8,
         fontWeight: "bold",
         fontSize: 20,
+    },
+
+    tinyLogo: {
+        width: 180,
+        height: 180,
     },
 
    

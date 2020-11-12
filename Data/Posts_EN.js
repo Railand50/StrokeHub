@@ -19,6 +19,14 @@ export default Posts_EN = [
             type: "p",
             content: "A stroke is a disease that affects the blood vessels, known as arteries, within the brain. It can be fatal to those who have had it, potentially causing various disabiliites or even death. "
           },
+          {
+            type: "h1",
+            content: "How common is a Stroke?"
+          },
+          {
+            type: "img",
+            content: require("../assets/OneinSix.png"),
+          },
         ]
       },
       {
@@ -264,11 +272,11 @@ export default Posts_EN = [
           },
           {
             type: "p",
-            content: "-  Old Age"
+            content: "-	High Blood Pressure"
           },
           {
             type: "p",
-            content: "-	High Blood Pressure"
+            content: "-	Old Age"
           },
           {
             type: "p",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, FlatList } from 'react-native';
+import { SafeAreaView, FlatList, Image } from 'react-native';
 import LanguageCell from "../Components/LanguageCell";
 
 import Posts from "../Data/Posts";
@@ -20,8 +20,12 @@ const LanguageScreen = ({ navigation }) => {
 				data={Posts}
 				renderItem={renderItem}
 			/>
+			{/* <Image
+                style={styles.tinyLogo}
+                source={require("../assets/logo.png")}
+            /> */}
 		</SafeAreaView>
 	);
 };
 
-export default LanguageScreen;
+export default LanguageScreen;npm 

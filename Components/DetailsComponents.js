@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
 	imageContainer: {
 		width: 430,
 		height: 295, 
-		marginTop: -20,
+		
+		marginTop: 0,
 		marginHorizontal: 0,
 		borderRadius: 8,
 		overflow: "hidden", 
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
 	img: {
 		flex: 1,
 		width: null,
-		height:500,
+		height: null,
 	},
 });
 

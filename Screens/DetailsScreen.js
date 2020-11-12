@@ -23,7 +23,7 @@ const DetailsScreen = ({ navigation, route }) => {
 		<SafeAreaView style={styles.safeArea}>
 			<ScrollView>
 				<View style={styles.imageWrapper}>
-					<Image style={styles.thumbnail} source={props.thumbnail} />
+					<Image style={styles.thumbnail} resizeMode='contain'  source={props.thumbnail} />
 				</View>
 				<View style={styles.header}>
 					<Text style={styles.title}>{props.title}</Text>
