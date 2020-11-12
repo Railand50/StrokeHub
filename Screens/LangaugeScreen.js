@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, FlatList, Image } from 'react-native';
+import { SafeAreaView, FlatList, Image, StyleSheet } from 'react-native';
 import LanguageCell from "../Components/LanguageCell";
 
 import Posts from "../Data/Posts";
@@ -20,12 +20,23 @@ const LanguageScreen = ({ navigation }) => {
 				data={Posts}
 				renderItem={renderItem}
 			/>
-			{/* <Image
+			<Image
                 style={styles.tinyLogo}
                 source={require("../assets/logo.png")}
-            /> */}
+            />
 		</SafeAreaView>
 	);
 };
 
-export default LanguageScreen;npm 
+const styles = StyleSheet.create({
+	img: {
+		flex: 1,
+		width: null,
+		height: null,
+	},
+	tinyLogo: {
+        width: 300,
+        height: 300,
+    },
+});
+export default LanguageScreen;

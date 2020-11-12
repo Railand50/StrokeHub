@@ -16,15 +16,15 @@ const DetailsImage = (props) => (
 
 const styles = StyleSheet.create({
 	h1: {
-		marginHorizontal: 16,
-		marginTop: 20,
-		marginBottom: 30,
+		marginHorizontal: 24,
+		marginTop: 32,
+		marginBottom: 16,
 		fontWeight: "bold",
 		fontSize: 30,
 	},
 
 	p: {
-		marginHorizontal: 16,
+		marginHorizontal: 24,
 		marginTop: 8,
 		fontSize: 18,
 		textAlign: "justify",
