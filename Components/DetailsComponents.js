@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
 	h1: {
 		marginHorizontal: 24,
 		marginTop: 32,
-		marginBottom: 16,
+		marginBottom: 8,
 		fontWeight: "bold",
 		fontSize: 30,
 	},

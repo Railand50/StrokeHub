@@ -22,9 +22,9 @@ const DetailsScreen = ({ navigation, route }) => {
 
 		<SafeAreaView style={styles.safeArea}>
 			<ScrollView>
-				<View style={styles.imageWrapper}>
+				{/* <View style={styles.imageWrapper}>
 					<Image style={styles.thumbnail} resizeMode='contain' source={props.thumbnail} />
-				</View>
+				</View> */}
 				<View style={styles.header}>
 					<Text style={styles.title}>{props.title}</Text>
 					<Text style={styles.subtitle}>{props.subtitle}</Text>
@@ -41,8 +41,8 @@ const styles = StyleSheet.create({
 	},
 
 	imageWrapper: {
-		height: 250,
-		marginHorizontal: 24,
+		height: 150,
+		marginHorizontal: 40,
 		marginTop: 24,
 		borderRadius: 8,
 		overflow: "hidden",
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
 		fontSize: 20,
 		fontStyle: "italic",
 		opacity: 0.5,
+		marginBottom: -20,
 	},
 });
 

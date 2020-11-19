@@ -12,6 +12,10 @@ export default Posts_EN = [
         subtitle: "What is a stroke?",
         body: [
           {
+            type: "h1",
+            content: "Analogy of a Stroke"
+          },
+          {
             type: "img",
             content: require("../assets/Test.png"),
           },
@@ -102,7 +106,11 @@ export default Posts_EN = [
           },
           {
             type: "p",
-            content: "Your doctors may describe the location of your stroke."
+            content: "Your doctors may describe the location of your stroke. Here are the different parts of the brain."
+          },
+          {
+            type: "img",
+            content: require("../assets/Parts.png"),
           },
         ]
       },

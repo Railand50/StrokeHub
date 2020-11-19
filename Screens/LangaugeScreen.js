@@ -28,9 +28,10 @@ const LanguageScreen = ({ navigation }) => {
 			/>
 			<Image
                 style={{
-					width: width * 0.5,
-					height: imageHeight * 0.5,
-					alignSelf: 'center'
+					width: width * 0.8,
+					height: imageHeight * 0.8,
+					alignSelf: 'center',
+					marginBottom: 50,
 				}}
                 source={logo}
             />
@@ -41,7 +42,7 @@ const LanguageScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		justifyContent: 'space-between'
+		justifyContent: 'space-between',
 	}
 
 });
