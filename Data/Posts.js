@@ -12,7 +12,7 @@ export default Posts = [
         } 
     },
     {
-        language: "Chinese",
+        language: "中文",
         section: {
             title: "主页",
             body: Posts_CN

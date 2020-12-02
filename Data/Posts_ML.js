@@ -2,14 +2,14 @@ export default Posts_ML = [
     {
       type: "sections",
       thumbnail: require("../assets/Test2.png"),
-      title: "Learning about Stroke",
+      title: "Belajar mengenai Strok",
       //subtitle: "What is a stroke?",
       body: [
         {
           type: "details",
           thumbnail: require("../assets/Test2.png"),
-          title: "About Stroke",
-          subtitle: "What is a stroke?",
+          title: "Mengenai Strok",
+          subtitle: "Apa itu strok?",
           body: [
             {
               type: "img",
@@ -17,11 +17,11 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "A stroke is a disease that affects the blood vessels, known as arteries, within the brain. It can be fatal to those who have had it, potentially causing various disabiliites or even death. "
+              content: "Strok adalah penyakit yang mempengaruhi saluran darah, yang dikenali sebagai arteri, di dalam otak. Ia boleh membawa maut kepada mereka yang memilikinya, berpotensi menyebabkan pelbagai kecacatan atau bahkan kematian."
             },
             {
               type: "h1",
-              content: "How common is a Stroke?"
+              content: "Seberapa biasa strok?"
             },
             {
               type: "img",
@@ -32,12 +32,12 @@ export default Posts_ML = [
         {
           type: "details",
           thumbnail: require("../assets/Test3.png"),
-          title: "Types of Strokes",
-          subtitle: "What are the 2 types of strokes?",
+          title: "Jenis Strok",
+          subtitle: "Apakah 2 jenis strok?",
           body: [
             {
               type: "h1",
-              content: "Ischaemic Stroke"
+              content: "Strok iskemia"
             },
             {
               type: "img",
@@ -45,7 +45,7 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Occurs when a blood clot is lodged in an artery and cuts off blood supply to the brain. Caused by either embolism or thrombosis. "
+              content: "Berlaku ketika bekuan darah dimasukkan ke dalam arteri dan memutuskan bekalan darah ke otak. Ia biasanya disebabkan oleh embolisme atau trombosis."
             },
             {
               type: "img",
@@ -54,7 +54,7 @@ export default Posts_ML = [
   
             {
               type: "h1",
-              content: "Haemorrhagic Stroke"
+              content: "Strok hemoragik"
             },
             {
               type: "img",
@@ -62,23 +62,35 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Occurs when there is a ruptured blood vessel causing bleeding in the brain. Where hemorrhage/blood leaks into the brain tissue. "
+              content: "Berlaku apabila terdapat saluran darah yang pecah menyebabkan pendarahan di otak. "
             },
             {
               type: "p",
-              content: "It is usually caused by either high blood pressure or defects in the blood wall (cerebral aneurysm)."
+              content: "Ia biasanya disebabkan oleh tekanan darah tinggi atau kecacatan pada dinding darah (aneurisma serebrum)."
             },
             {
               type: "img",
               content: require("../assets/cerebral2.png"),
+            },
+            {
+              type: "h1",
+              content: "Strok Iskemia sementara"
+            },
+            {
+              type: "p",
+              content: "Berlaku apabila terdapat gangguan bekalan darah ke otak sementara."
+            },
+            {
+              type: "p",
+              content: "Tidak ada kerosakan otak kekal dan gejala hilang dalam beberapa minit. "
             },
           ]
         },
         {
           type: "details",
           thumbnail: require("../assets/Test4.png"),
-          title: "About the Brain",
-          subtitle: "Different areas of the brain that can be affected by stroke.",
+          title: "Mengenai otak",
+          subtitle: "Kawasan otak yang berbeza yang boleh terkena strok.",
           body: [
             {
               type: "h1",
@@ -90,11 +102,11 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "The brain has a left and right side. Each side is divided into several areas that control different function."
+              content: "Otak mempunyai bahagian kiri dan kanan. Setiap sisi dibahagikan kepada beberapa kawasan yang mengawal fungsi yang berbeza."
             },
             {
               type: "h1",
-              content: "Brain Functions (Right)"
+              content: "Fungsi Otak (Kanan)"
             },
             {
               type: "img",
@@ -102,7 +114,7 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Your doctors may describe the location of your stroke."
+              content: "Doktor anda mungkin menerangkan lokasi strok anda."
             },
           ]
         },
@@ -113,18 +125,18 @@ export default Posts_ML = [
     {
       type: "sections",
       thumbnail: require("../assets/Test9.png"),
-      title: "Identifying a Stroke",
+      title: "Mengenalpasti Strok",
       //subtitle: "What is a stroke?",
       body: [
         {
           type: "details",
           thumbnail: require("../assets/Test9.png"),
-          title: "Signs & Symptoms",
-          subtitle: "Every patient is affected by a stroke differently, it depends on the area of damage in the brain.",
+          title: "Tanda & Gejala ",
+          subtitle: "Setiap pesakit dipengaruhi oleh strok secara berbeza, ia bergantung pada kawasan kerosakan di otak. ",
           body: [
             {
               type: "h1",
-              content: "Physical"
+              content: "Fizikal"
             },
             {
               type: "img",
@@ -132,19 +144,19 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	You may experience weakness in one or both sides of the body. This weakness varies in severity. "
+              content: "-	Anda mungkin mengalami kelemahan pada satu atau kedua-dua belah badan. Kelemahan ini berbeza dalam keparahan."
             },
             {
               type: "p",
-              content: "-	Weakness of the face muscles such as face drooping, drooling, and speech difficulty."
+              content: "-	Kelemahan otot-otot wajah seperti terkulai pada muka, kelesuan, dan kesukaran bercakap."
             },
             {
               type: "p",
-              content: "-	You may have trouble standing, walking, or performing delicate tasks."
+              content: "-	-	Anda mungkin menghadapi masalah untuk berdiri, berjalan, atau melakukan tugas yang sukar."
             },
             {
               type: "h1",
-              content: "Sensation"
+              content: "Sensasi"
             },
             {
               type: "img",
@@ -152,16 +164,16 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	You may experience reduced or loss of sensation over one side or specific parts of your body."
+              content: "-	Anda mungkin mengalami pengurangan atau kehilangan sensasi di satu sisi atau bahagian tertentu badan anda."
             },
             {
               type: "p",
-              content: "- You may experience abnormal extra feelings over one side of your body such as tingling or an electric sensation."
+              content: "-	Anda mungkin mengalami perasaan tambahan yang tidak normal di satu sisi badan anda seperti kesemutan atau sensasi elektrik."
             },
   
             {
               type: "h1",
-              content: "Vision"
+              content: "Penglihatan"
             },
             {
               type: "img",
@@ -169,12 +181,12 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	You may experience double-vision or loss of vision in one side or area of your vision field"
+              content: "- Anda mungkin mengalami penglihatan berganda atau kehilangan penglihatan di satu sisi atau kawasan bidang penglihatan anda."
             },
   
             {
               type: "h1",
-              content: "Communications"
+              content: "Komunikasi"
             },
             {
               type: "img",
@@ -182,16 +194,16 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	Dysarthria: You may have trouble in articulating words. This may cause your speech to be unclear, slow or soft."
+              content: "-	Dysarthria: Anda mungkin menghadapi masalah dalam mengartikulasikan kata-kata. Ini boleh menyebabkan ucapan anda tidak jelas, lambat atau lembut. "
             },
             {
               type: "p",
-              content: "-	Dysphasia: You may experience inability to understand or express words, phrases and sentences, in both verbal and written form."
+              content: "-	Disfasia: Anda mungkin mengalami ketidakupayaan untuk memahami atau menyatakan kata, frasa dan ayat, dalam bentuk lisan dan tulisan."
             },
   
             {
               type: "h1",
-              content: "Swallowing"
+              content: "Menelan"
             },
             {
               type: "img",
@@ -199,19 +211,19 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "- Dysphagia: You may have trouble with drinking and eating. It can cause coughing and choking leading to an increased risk of lung infection."
+              content: "- Disfagia: Anda mungkin menghadapi masalah minum dan makan. Ia boleh menyebabkan batuk dan tersedak menyebabkan peningkatan risiko jangkitan paru-paru."
             },
           ]
         },
         {
           type: "details",
           thumbnail: require("../assets/Test11.png"),
-          title: "Thinking F.A.S.T",
-          subtitle: "How do you spot a Stroke?",
+          title: "Berfikir F.A.S.T",
+          subtitle: "Bagaimana anda melihat Strok?",
           body: [
             {
               type: "h1",
-              content: "Identifying a Stroke"
+              content: "Mengenalpasti Strok"
             },
             {
               type: "img",
@@ -219,7 +231,7 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "To identify if a person is having a Stroke, think F.A.S.T"
+              content: "Untuk mengenal pasti sama ada seseorang mengalami Strok, fikirkan F.A.S.T"
             },
           ]
         },
@@ -253,14 +265,14 @@ export default Posts_ML = [
     {
       type: "sections",
       thumbnail: require("../assets/Risks.png"),
-      title: "Managing the Risk",
+      title: "Menguruskan Risiko",
       //subtitle: "What is a stroke?",
       body: [
         {
           type: "details",
           thumbnail: require("../assets/Risks.png"),
-          title: "Causes and risk factors",
-          subtitle: "Here are some factors that may cause a stroke to occur:",
+          title: "Sebab dan faktor risiko",
+          subtitle: "Berikut adalah beberapa faktor yang boleh menyebabkan strok berlaku:",
           body: [
             {
               type: "h1",
@@ -272,15 +284,15 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	High Blood Pressure"
+              content: "-	Tekanan darah tinggi"
             },
             {
               type: "p",
-              content: "-	Old Age"
+              content: "-	Berusia "
             },
             {
               type: "p",
-              content: "-	Smoking"
+              content: "-	Merokok "
             },
             {
               type: "p",
@@ -288,31 +300,31 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	High Blood Cholesterol"
+              content: "-	Kolesterol Darah Tinggi "
             },
             {
               type: "p",
-              content: "-	Irregular Heartbeat"
+              content: "-	Denyutan jantung yang tidak teratur "
             },
             {
               type: "p",
-              content: "-	Heart disease/Conditions"
+              content: "-	Penyakit jantung / keadaan "
             },
             {
               type: "p",
-              content: "-	Previous stroke or Transient Ischemic Attack (TIA/Mini-Stroke)"
+              content: "-	Strok sebelumnya atau Serangan Iskemia Sementara (TIA / Strok mini)"
             },
           ]
         },
         {
           type: "details",
           thumbnail: require("../assets/Risks2.png"),
-          title: "Risk-factor controls",
-          subtitle: "There are risk factors that you can control. These include:",
+          title: "Kawalan faktor risiko",
+          subtitle: "Terdapat faktor risiko yang boleh anda kawal. Ini termasuk:",
           body: [
             {
               type: "h1",
-              content: "High Cholesterol (Hyperlipidemia)"
+              content: "Kolesterol Tinggi (Hiperlipidemia)"
             },
             {
               type: "img",
@@ -320,15 +332,15 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Having a diet high in saturated fats (animal fats) is the main cause of high cholesterol.  "
+              content: "Memiliki diet tinggi lemak jenuh (lemak haiwan) adalah penyebab utama kolesterol tinggi. "
             },
             {
               type: "p",
-              content: "High cholesterol has about two times the risk of heart disease, which is a contributor to stroke risk."
+              content: "Kolesterol tinggi mempunyai risiko penyakit jantung sekitar dua kali ganda, yang merupakan penyumbang kepada risiko strok. "
             },
             {
               type: "h1",
-              content: "High blood pressure (Hypertension)"
+              content: "Tekanan darah tinggi (Hipertensi)"
             },
             {
               type: "img",
@@ -336,7 +348,7 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "The most important known risk factor for stroke."
+              content: "Faktor risiko yang paling penting diketahui untuk strok. Hipertensi yang tidak terkawal meningkatkan risiko strok sebanyak empat kali. "
             },
             {
               type: "h1",
@@ -348,15 +360,11 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "The most important known risk factor for stroke."
-            },
-            {
-              type: "p",
-              content: "Uncontrolled diabetes over a long period of time can cause damage to your blood vessels and nerves. The risk of stroke is 1.5 times more in diabetic patients"
+              content: "Diabetes yang tidak terkawal dalam jangka masa yang panjang boleh menyebabkan kerosakan pada saluran darah dan saraf anda. Risiko strok adalah 1.5 kali lebih banyak pada pesakit diabetes"
             },
             {
               type: "h1",
-              content: "Smoking:"
+              content: "Merokok:"
             },
             {
               type: "img",
@@ -364,15 +372,15 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "May increase your risk of stroke by 1.5 to 2.5 times."
+              content: "Boleh meningkatkan risiko strok sebanyak 1.5 hingga 2.5 kali. "
             },
             {
               type: "p",
-              content: "Your risk of stroke will be equivalent to that of a non-smoker after five years of quitting."
+              content: "Risiko anda terkena strok akan sama dengan orang yang tidak merokok setelah lima tahun berhenti."
             },
             {
               type: "h1",
-              content: "Irregular heartbeat: (Atrial Fibrillation) "
+              content: "Denyutan jantung tidak teratur (Fibrilasi Atrium)"
             },
             {
               type: "img",
@@ -380,15 +388,15 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "During irregular heartbeat, the heart does not completely pump and empty blood smoothly. "
+              content: "Semasa degupan jantung tidak teratur, jantung tidak mengepam sepenuhnya dan mengosongkan darah dengan lancar. "
             },
             {
               type: "p",
-              content: "This increases the risk of blood clots forming in the heart and travelling to the brain. Atrial Fibrillation increases the risk of stroke by five times."
+              content: "Ini meningkatkan risiko pembekuan darah di jantung dan perjalanan ke otak. Fibrilasi Atrium meningkatkan risiko strok sebanyak lima kali. "
             }, 
             {
               type: "h1",
-              content: "Unhealthy lifestyle:"
+              content: "Gaya hidup yang tidak sihat:"
             },
             {
               type: "img",
@@ -396,7 +404,7 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Being sedentary, having an unhealthy diet, obesity and excessive alcohol consumption can increase the risk of high blood pressure, high cholesterol, diabetes, heart disease and further strokes."
+              content: "Dengan tidak aktif, menjalani diet yang tidak sihat, kegemukan dan pengambilan alkohol yang berlebihan dapat meningkatkan risiko tekanan darah tinggi, kolesterol tinggi, diabetes, penyakit jantung, dan strok selanjutnya."
             },
           ]
         },
@@ -407,17 +415,17 @@ export default Posts_ML = [
     {
       type: "sections",
       thumbnail: require("../assets/Hospital.png"),
-      title: "The Hospital Journey",
+      title: "Perjalanan Hospital",
       //subtitle: "What is a stroke?",
       body: [
         {
           thumbnail: require("../assets/ScreeningInv.png"),
-          title: "Screening & Investigation",
-          subtitle: "What happens to a Stroke patient in the hospital? ",
+          title: "Pemeriksaan & Penyiasatan",
+          subtitle: "Apa yang berlaku kepada pesakit Strok di hospital? ",
           body: [
             {
               type: "h1",
-              content: "Screening:"
+              content: "Pemeriksaan:"
             },
             {
               type: "img",
@@ -425,11 +433,11 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "-	You will be assessed by stroke care team members, followed by an appropriate referral to a healthcare professional."
+              content: "Anda akan dinilai oleh ahli pasukan rawatan strok, diikuti dengan rujukan yang tepat kepada profesional penjagaan kesihatan."
             },
             {
               type: "h1",
-              content: "Investigation:"
+              content: "Penyiasatan:"
             },
             {
               type: "img",
@@ -437,11 +445,11 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "You will undergo various tests. Read below to find out more."
+              content: "Anda akan menjalani pelbagai ujian. Baca di bawah untuk mengetahui lebih lanjut."
             },
             {
               type: "h1",
-              content: "Brain scan:"
+              content: "Imbasan otak:"
             },
             {
               type: "img",
@@ -449,15 +457,15 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Identify the type, location, and size of the stroke area"
+              content: "Enalpasti jenis, lokasi, dan ukuran kawasan strok"
             },
             {
               type: "p",
-              content: "Computerised Tomography (CT) scan or magnetic resonance imaging (MRI) scan are used "
+              content: "Imbasan Tomografi Berkomputer (CT) atau pengimejan resonans magnetik (MRI) digunakan."
             },
             {
               type: "h1",
-              content: "Ultrasound"
+              content: "Ultrabunyi"
             },
             {
               type: "img",
@@ -465,11 +473,11 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Scans the Blood vessels in the neck and brain to assess the brain’s blood supply."
+              content: "Mengimbas saluran darah di leher dan otak untuk menilai bekalan darah otak."
             },
             {
               type: "h1",
-              content: "Heart tests (3 Types)"
+              content: "Ujian jantung (3 Jenis)"
             },
             {
               type: "img",
@@ -477,19 +485,19 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Electrocardiogram (ECG), checks for any abnormal heart rhythm."
+              content: "Elektrokardiogram (ECG), memeriksa irama jantung yang tidak normal."
             },
             {
               type: "p",
-              content: "Echocardiogram, Ultrasound test that checks for the presence of clots. Checks for abnormal communications between the chambers of the heart."
+              content: "Echocardiogram, Ujian ultrabunyi yang memeriksa kehadiran bekuan. Memeriksa komunikasi yang tidak normal antara ruang jantung."
             },
             {
               type: "p",
-              content: "Holter, which checks for any heart rhythm problems over 1 or 2 days."
+              content: "Holter, yang memeriksa sebarang masalah irama jantung selama 1 atau 2 hari."
             },
             {
               type: "h1",
-              content: "Blood tests"
+              content: "Ujian darah"
             },
             {
               type: "img",
@@ -497,22 +505,22 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Finds any new risk factors and measures your blood count"
+              content: "Mencari faktor risiko baru dan mengukur jumlah darah anda."
             },
             {
               type: "p",
-              content: "Checks function of other organs (kidney, liver etc)"
+              content: "Memeriksa fungsi organ lain (buah pinggang, hati dll)"
             },
           ]
         },
         {
           thumbnail: require("../assets/Monitoring.png"),
-          title: "Monitoring",
-          subtitle: "During your hospital stay",
+          title: "Pemantauan",
+          subtitle: "Semasa anda tinggal di hospital",
           body: [
             {
               type: "h1",
-              content: "Monitoring"
+              content: "Pemantauan"
             },
             // {
             //   type: "img",
@@ -520,15 +528,15 @@ export default Posts_ML = [
             // },
             {
               type: "p",
-              content: "You will be monitored during your hospital stay."
+              content: "Anda akan dipantau semasa berada di hospital."
             },
             {
               type: "p",
-              content: "This includes blood pressure checks and assessment of your stroke signs every few hours."
+              content: "Ini termasuk pemeriksaan tekanan darah dan penilaian tanda-tanda strok anda setiap beberapa jam."
             },
             {
               type: "h1",
-              content: "Medication"
+              content: "Ubat"
             },
             // {
             //   type: "img",
@@ -536,15 +544,15 @@ export default Posts_ML = [
             // },
             {
               type: "p",
-              content: "Please take your medicine as prescribed by your doctor accordingly."
+              content: "Sila ambil ubat anda seperti yang ditetapkan oleh doktor anda."
             },
             {
               type: "p",
-              content: "Inform your stroke care team should you be taking any other medication."
+              content: "Maklumkan kepada pasukan rawatan strok anda sekiranya anda mengambil ubat lain."
             },
             {
               type: "h1",
-              content: "Early mobilization"
+              content: "Mobilisasi awal"
             },
             // {
             //   type: "img",
@@ -552,15 +560,15 @@ export default Posts_ML = [
             // },
             {
               type: "p",
-              content: "Your stroke care team will encourage early mobilization when it is safe to do so. "
+              content: "Pasukan penjagaan strok anda akan mendorong mobilisasi awal apabila selamat untuk melakukannya."
             },
             {
               type: "p",
-              content: "Your safety is our priority, always ask for assistance if needed."
+              content: "Keselamatan anda adalah keutamaan kami, selalu meminta bantuan sekiranya diperlukan."
             },
             {
               type: "h1",
-              content: "Screening and Preventions of complications after acute stroke."
+              content: "Pemeriksaan dan Pencegahan komplikasi selepas strok akut."
             },
             // {
             //   type: "img",
@@ -568,18 +576,18 @@ export default Posts_ML = [
             // },
             {
               type: "p",
-              content: "You will be monitored closely during your hospital stay for any complications after an acute stroke."
+              content: "Anda akan dipantau dengan teliti semasa tinggal di hospital untuk sebarang komplikasi selepas strok akut."
             },
           ]
         },
         {
           thumbnail: require("../assets/Treatment.png"),
-          title: "Treatment",
-          subtitle: "How do you reduce the risk of another stroke? Here are a few methods:",
+          title: "Rawatan",
+          subtitle: "Bagaimana cara mengurangkan risiko strok lain? Berikut adalah beberapa kaedah:",
           body: [
             {
               type: "h1",
-              content: "Anti-platelets"
+              content: "Anti-platelet"
             },
             {
               type: "img",
@@ -587,27 +595,27 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "What is a Platelet?"
+              content: "Apa itu Platelet?"
             },
             {
               type: "p",
-              content: "Your platelets are very large cells in your body that help form blood clots to slow or stop bleeding in your wounds."
+              content: "Platelet anda adalah sel yang sangat besar di dalam badan anda yang membantu membentuk darah beku untuk melambatkan atau menghentikan pendarahan pada luka anda."
             },
             {
               type: "p",
-              content: "Why use Anti-Platelets?"
+              content: "Mengapa menggunakan Anti Platelet?"
             },
             {
               type: "p",
-              content: "Anti-Platelets makes the blood 'less sticky' by preventing platelets from sticking together to form a blood clot. "
+              content: "Anti-Platelet menjadikan darah 'kurang melekit' dengan mencegah platelet melekat bersama untuk membentuk bekuan darah."
             },
             {
               type: "p",
-              content: "Examples include: Clopidogel, Aspirin, Dipyridamole."
+              content: "Contoh: Clopidogel, Aspirin, Dipyridamole."
             },
             {
               type: "h1",
-              content: "Anti-Coagulants"
+              content: "Anti-Pembekuan"
             },
             {
               type: "img",
@@ -615,19 +623,19 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "What does it do?"
+              content: "Apa yang dilakukannya?"
             },
             {
               type: "p",
-              content: "It is blood thinner that helps prevent the formation of new blood clots and prevents existing blood clots from getting larger."
+              content: " Ini adalah pengencer darah yang membantu mencegah pembentukan gumpalan darah baru dan mencegah pembekuan darah yang ada menjadi lebih besar."
             },
             {
               type: "p",
-              content: "Example: Warfarin, Novel-Oral Anticoagulants (Rivaroxaban, Dabigatran and Apixaban)."
+              content: "Contoh: Warfarin, Antikoagulan Novel-Lisan (Rivaroxaban, Dabigatran dan Apixaban)."
             },
             {
               type: "h1",
-              content: "Cholesterol-lowering medicines"
+              content: "Ubat penurun kolesterol"
             },
             {
               type: "img",
@@ -635,15 +643,15 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Cholesterol-lowering medicine lowers your cholesterol level and helps reduce risk of stroke and heart diseases"
+              content: "Ubat penurun kolesterol menurunkan tahap kolesterol anda dan membantu mengurangkan risiko strok dan penyakit jantung."
             },
             {
               type: "p",
-              content: "Example: Simvastatin, Atorvastatin, Rosuvastatin, Ezetimibe, Feno"
+              content: "Contoh: Simvastatin, Atorvastatin, Rosuvastatin, Ezetimibe, Feno."
             },
             {
               type: "h1",
-              content: "Lifestyle modification"
+              content: "Pengubahsuaian gaya hidup"
             },
             {
               type: "img",
@@ -651,35 +659,35 @@ export default Posts_ML = [
             },
             {
               type: "p",
-              content: "Here are some changes that will significantly help reduce your risk of a stroke:"
+              content: " Berikut adalah beberapa perubahan yang akan membantu mengurangkan risiko anda mengalami strok:"
             },
             {
               type: "p",
-              content: "-	Quit smoking."
+              content: "-	Berhenti merokok."
             },
             {
               type: "p",
-              content: "-	Limit alcohol consumption"
+              content: "-	Hadkan pengambilan alkohol."
             },
             {
               type: "p",
-              content: "-	Have a healthy and well-balanced diet."
+              content: "- Selamat menjalani diet yang sihat dan seimbang."
             },
             {
               type: "p",
-              content: "-	Exercise regularly."
+              content: "-	Bersenam secara berkala."
             },
             {
               type: "p",
-              content: "-	Maintain healthy body weight."
+              content: "-	Mengekalkan berat badan yang sihat."
             },
             {
               type: "p",
-              content: "-	Take your medications as prescribed by your doctor."
+              content: "-	Ambil ubat anda seperti yang ditetapkan oleh doktor anda."
             },
             {
               type: "p",
-              content: "-	Attend medical appointments with your doctor as scheduled."
+              content: "-	Ikuti temu janji perubatan dengan doktor anda seperti yang dijadualkan."
             },
           ]
         },
@@ -688,17 +696,17 @@ export default Posts_ML = [
     {
       type: "sections",
       thumbnail: require("../assets/AfterStroke.png"),
-      title: "Life after Stroke",
+      title: "Kehidupan selepas Strok",
       //subtitle: "What is a stroke?",
       body: [
     {
       thumbnail: require("../assets/AfterStroke.png"),
-      title: "Discharge Planning",
-      subtitle: "How do you reduce the risk of another stroke? Here are a few methods:",
+      title: "Perancangan Pelepasan ",
+      subtitle: "Bagaimana anda mengurangkan risiko strok yang lain? Berikut adalah beberapa kaedah:",
       body: [
         {
           type: "h1",
-          content: "Your Stroke Team"
+          content: "pasukan strok anda"
         },
         {
           type: "img",
@@ -706,46 +714,46 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "To safely transition from an acute care facility to rehabilitation, an outpatient setting and upon discharge home."
+          content: "Untuk berpindah dengan selamat dari kemudahan rawatan akut ke pemulihan, tempat pesakit luar dan semasa pulang ke rumah."
         },
         {
           type: "p",
-          content: "Your stroke team will:"
+          content: "Pasukan strok anda akan:"
         },
         {
           type: "p",
-          content: "1) Formulate a discharge plan to discuss with patient and family."
+          content: " 1) Rumuskan rancangan pembuangan untuk berbincang dengan pesakit dan keluarga."
         },
         {
           type: "p",
-          content: "2) Understand your own and family needs."
+          content: "2) Memahami keperluan anda sendiri dan keluarga."
         },
         {
           type: "p",
-          content: "3) Identify your rehab goals and functional abilities."
+          content: "3) Kenali tujuan pemulihan dan kemampuan berfungsi anda."
         },
         {
           type: "p",
-          content: "4) If you are unable to achieve independence, your nurse is to explore on:"
+          content: "4) Sekiranya anda tidak dapat mencapai kemerdekaan, jururawat anda harus meneroka:"
         },
         {
           type: "p",
-          content: "- Care-giver issue, need for home care services."
+          content: "- Isu penjaga, keperluan untuk perkhidmatan penjagaan di rumah."
         },
         {
           type: "p",
-          content: "- Need for any community resources."
+          content: "- Perlu sumber komuniti"
         },
       ]
     },
     {
       thumbnail: require("../assets/Impact.png"),
-      title: "Impact of Stroke",
-      subtitle: "The effects of having a Stroke",
+      title: "Kesan strok",
+      subtitle: "Kesan daripada mengalami Strok",
       body: [
         {
           type: "h1",
-          content: "Effect on mobility and activities"
+          content: "Mobiliti dan aktiviti kehidupan seharian"
         },
         {
           type: "img",
@@ -753,19 +761,19 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "- Weakness on one side of your body."
+          content: "- Kelemahan pada satu sisi badan anda"
         },
         {
           type: "p",
-          content: "- Trouble with balance."
+          content: "- Masalah dengan keseimbangan."
         },
         {
           type: "p",
-          content: "You may have difficulty carrying out daily routines such as feeding, showering, and dressing."
+          content: "Anda mungkin menghadapi kesukaran menjalankan rutin harian seperti memberi makan, mandi, dan berpakaian."
         },
         {
           type: "h1",
-          content: "Nutrition"
+          content: "Pemakanan"
         },
         {
           type: "img",
@@ -773,19 +781,19 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "A stroke may limit a person’s nutritional health because it limits their ability to perform daily tasks associated with eating and swallowing."
+          content: " Strok boleh mengehadkan kesihatan pemakanan seseorang kerana membatasi kemampuan mereka untuk melakukan tugas harian yang berkaitan dengan makan dan menelan."
         },
         {
           type: "p",
-          content: "You may need to be on a special food consistency or nasogastric tube feeding diet. "
+          content: "Anda mungkin perlu konsisten makanan khas atau diet makan tiub nasogastrik."
         },
         {
           type: "p",
-          content: "Supplements may also be prescribed to meet your daily nutritional requirements."
+          content: "Makanan tambahan juga boleh diresepkan untuk memenuhi keperluan pemakanan harian anda."
         },
         {
           type: "h1",
-          content: "Cognition Impairment:"
+          content: "Kemerosotan Kognisi"
         },
         {
           type: "img",
@@ -793,19 +801,19 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "What is Cognition Impairment?"
+          content: "Apa itu Kemerosotan Kognisi?"
         },
         {
           type: "p",
-          content: "A person with cognition impairment will have trouble remembering, learning new things, concentrating or make decisions. "
+          content: "Seseorang yang mengalami gangguan kognisi akan menghadapi masalah untuk mengingat, mempelajari perkara baru, menumpukan perhatian atau membuat keputusan."
         },
         {
           type: "p",
-          content: "As a result of stroke, you may experience these difficulties which can affect your daily life."
+          content: " Akibat strok, anda mungkin mengalami kesukaran yang boleh mempengaruhi kehidupan seharian anda."
         },
         {
           type: "h1",
-          content: "Continence (Bowel and bladder movements)"
+          content: "Kesinambungan: (pergerakan usus dan pundi kencing)"
         },
         {
           type: "img",
@@ -813,15 +821,15 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "You may have trouble controlling your bladder or bowel movements."
+          content: "Anda mungkin menghadapi masalah untuk mengawal pergerakan pundi kencing atau usus anda."
         },
         {
           type: "p",
-          content: "This may be due to the damage in the brain or the reduction in mobility."
+          content: "Ini mungkin disebabkan oleh kerosakan otak atau penurunan mobiliti."
         },
         {
           type: "h1",
-          content: "Emotional changes and tiredness"
+          content: "Perubahan emosi dan keletihan"
         },
         {
           type: "img",
@@ -829,19 +837,18 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "Feelings of fatigue, anxiety, anger, or depression are common after stroke."
+          content: "Perasaan keletihan, kegelisahan, kemarahan, atau kemurungan adalah perkara biasa setelah strok."
         },
         {
           type: "p",
-          content: "These are normal responses. However in some extreme cases, they may require specific treatment."
-        },
+          content: " Ini mungkin tindak balas biasa terhadap apa yang telah berlaku. Dalam beberapa kes yang melampau, mereka mungkin memerlukan rawatan khusus. "},
         {
           type: "p",
-          content: "Do inform your stroke care team if you are experiencing these symptoms."
+          content: "Beritahu pasukan penjagaan strok anda jika anda mengalami gejala ini."
         },
         {
           type: "h1",
-          content: "Behavioral and personality changes"
+          content: "Tingkah laku dan keperibadian"
         },
         {
           type: "img",
@@ -849,35 +856,35 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "A stroke may create behavioral and personality changes due to damage to the brain."
+          content: "Strok boleh menyebabkan perubahan tingkah laku dan keperibadian kerana kerosakan pada otak."
         },
         {
           type: "p",
-          content: "Behavioral and personality changes include:"
+          content: "Perubahan tingkah laku dan keperibadian merangkumi:"
         },
         {
           type: "p",
-          content: "- Aggression"
+          content: "- Pencerobohan"
         },
         {
           type: "p",
-          content: "- Apathy (lack of interest)"
+          content: "- Apathy (kurang berminat)"
         },
         {
           type: "p",
-          content: "- Emotional liability (strong emotions)"
+          content: "- Disinhibition (kekurangan kekangan)"
         },
         {
           type: "p",
-          content: "- Irritability "
+          content: "- Kerengsaan"
         },
         {
           type: "p",
-          content: "- Impulsivity"
+          content: "- Impulsiviti"
         },
         {
           type: "p",
-          content: "- Disinhibition (lack of restraint)"
+          content: "- Tanggungjawab emosi (emosi kuat)"
         },
         // {
         //   type: "h1",
@@ -897,7 +904,7 @@ export default Posts_ML = [
         // },
         {
           type: "h1",
-          content: "Sexual activity"
+          content: "Aktiviti seksual"
         },
         {
           type: "img",
@@ -905,11 +912,11 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "You may feel worried about engaging in physical intimacy or have a physical impairment that affects intimacy."
+          content: "Anda mungkin merasa bimbang terlibat dalam keintiman fizikal atau mengalami gangguan fizikal yang mempengaruhi keakraban."
         },
         {
           type: "h1",
-          content: "Social activities"
+          content: "Aktiviti sosial"
         },
         {
           type: "img",
@@ -917,18 +924,18 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "The consequences of stroke may restrict your ability to engage your usual social activities."
+          content: "Akibat strok boleh membataskan kemampuan anda untuk melakukan aktiviti sosial biasa."
         },
       ]
     },
     {
       thumbnail: require("../assets/Complications.png"),
-      title: "Complications after Stroke",
-      subtitle: "Possible medical complications after having a Stroke",
+      title: "Komplikasi selepas strok",
+      subtitle: "Kemungkinan komplikasi perubatan setelah mengalami Strok",
       body: [
         {
           type: "h1",
-          content: "Contractures"
+          content: "Kontrak"
         },
         // {
         //   type: "img",
@@ -936,19 +943,19 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "What is a contracture?"
+          content: "Apa itu kontrak?"
         },
         {
           type: "p",
-          content: "A contracture is the shortening or hardening of muscles or other tissue, leading to deformity and rigidity of joints (eg cerebral palsy)."
+          content: "Kontraktur adalah pemendekan atau pengerasan otot atau tisu lain, yang menyebabkan kecacatan dan kekakuan sendi(contohnya cerebral palsy)."
         },
         {
           type: "p",
-          content: "Contractures usually occur due to brain damage and irreversible contraction and of the muscles."
+          content: "Kontraktur biasanya berlaku kerana kerosakan otak dan pengecutan yang tidak dapat dipulihkan dan otot."
         },
         {
           type: "h1",
-          content: "Infection"
+          content: "Jangkitan"
         },
         // {
         //   type: "img",
@@ -956,15 +963,15 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "Improper swallowing may result in food or fluids entering the lungs, leading to pneumonia."
+          content: "Menelan yang tidak betul boleh mengakibatkan makanan atau cecair memasuki paru-paru, yang menyebabkan radang paru-paru."
         },
         {
           type: "p",
-          content: "Poor hygiene care of the genital area may also cause urinary tract infection."
+          content: "Kebersihan yang buruk di kawasan genital juga boleh menyebabkan jangkitan saluran kencing."
         },
         {
           type: "h1",
-          content: "Pressure sores"
+          content: "Luka tekanan"
         },
         // {
         //   type: "img",
@@ -972,11 +979,11 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "Constant pressure over certain body parts from reduced mobility may cause the skin over that area to break down."
+          content: "Tekanan berterusan ke atas bahagian badan tertentu dari pergerakan yang berkurang boleh menyebabkan kulit di kawasan itu hancur."
         },
         {
           type: "h1",
-          content: "Deep vein thrombosis"
+          content: "Trombosis urat dalam"
         },
         // {
         //   type: "img",
@@ -984,19 +991,19 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "What is deep vein thrombosis?"
+          content: "Apa itu trombosis urat dalam?"
         },
         {
           type: "p",
-          content: "It is a blood clot that forms in a vein deep in the body."
+          content: "Ini adalah gumpalan darah yang terbentuk di urat jauh di dalam badan."
         },
         {
           type: "p",
-          content: "May occur in veins of the legs because of reduced mobility after stroke."
+          content: "Mungkin berlaku pada urat kaki kerana pergerakan yang berkurang selepas strok."
         },
         {
           type: "h1",
-          content: "Muscle spasticity"
+          content: "Kekejangan otot"
         },
         // {
         //   type: "img",
@@ -1004,15 +1011,15 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "What are muscle spasms?"
+          content: "Apa itu kekejangan otot?"
         },
         {
           type: "p",
-          content: "Also know as muscle cramps, it is when your muscles become tense and contract abnormally leading to pain."
+          content: "Also known as muscle spasms, it is when your muscles become tense and contract abnormally causing pain."
         },
         {
           type: "h1",
-          content: "Seizures"
+          content: "Kejang"
         },
         // {
         //   type: "img",
@@ -1020,19 +1027,19 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "Damaged brain cells from stroke may lead to abnormal, uncontrolled electrical activity in the brain."
+          content: "Sel-sel otak yang rosak akibat strok boleh menyebabkan aktiviti elektrik yang tidak normal dan tidak terkawal di otak."
         },
         {
           type: "p",
-          content: "It can cause changes in your behavior, movements or feelings, and in levels of consciousness. It may even cause convulsions."
+          content: "Ia boleh menyebabkan perubahan tingkah laku, pergerakan atau perasaan anda, dan tahap kesedaran. Bahkan boleh menyebabkan sawan."
         },
         {
           type: "p",
-          content: "Convulsions – Body Muscles contract and relax rapidly and repeatedly, leading to uncontrolled actions of the body."
+          content: "Konvulsi - Otot Tubuh menguncup dan berehat dengan cepat dan berulang-ulang, yang membawa kepada tindakan badan yang tidak terkawal."
         },
         {
           type: "h1",
-          content: "Shoulder subluxation"
+          content: "Subluksasi bahu"
         },
         // {
         //   type: "img",
@@ -1040,15 +1047,15 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "Subluxation - Partial dislocation of a joint. "
+          content: "Subluxation - Kehilangan separa sendi."
         },
         {
           type: "p",
-          content: "May occur when there is a lack of support in an arm due to weakness."
+          content: "Mungkin berlaku apabila terdapat kekurangan sokongan pada lengan kerana kelemahan."
         },
         {
           type: "p",
-          content: "Arm hanging leads to pulling the arm off from the shoulder joint."
+          content: "Gantung lengan membawa kepada menarik lengan dari sendi bahu."
         },
       ]
     },
@@ -1057,13 +1064,13 @@ export default Posts_ML = [
     {
       type: "sections",
       thumbnail: require("../assets/Help.png"),
-      title: "Help & Resources",
+      title: "Bantuan & Sumber",
       //subtitle: "What is a stroke?",
       body: [
     {
       thumbnail: require("../assets/Help.png"),
-      title: "Rehabilitation Process",
-      subtitle: "Processes that benefit Post Stroke Patients",
+      title: "Proses Pemulihan",
+      subtitle: "Proses yang memberi manfaat kepada Pesakit Post Stroke",
       body: [
         {
           type: "h1",
@@ -1075,19 +1082,19 @@ export default Posts_ML = [
         },
         {
           type: "p",
-          content: "Rehabilitation aims to:"
+          content: "Pemulihan bertujuan untuk:"
         },
         {
           type: "p",
-          content: "1) Improve your ability to perform usual functions."
+          content: "1) Tingkatkan kemampuan anda untuk melakukan fungsi biasa."
         },
         {
           type: "p",
-          content: "2) Reduce complications after a stroke."
+          content: "2) Mengurangkan komplikasi selepas strok."
         },
         {
           type: "p",
-          content: "You and your family members should be actively involved in the rehabilitation process."
+          content: "Anda dan ahli keluarga anda harus terlibat secara aktif dalam proses pemulihan."
         },
         // {
         //   type: "h1",
@@ -1117,12 +1124,12 @@ export default Posts_ML = [
     },
     {
       thumbnail: require("../assets/Car.png"),
-      title: "Post Stroke Guidelines (Driving)",
-      subtitle: "How long to wait before Driving?",
+      title: "Garis Panduan Post Stroke (Memandu)",
+      subtitle: "Berapa lama menunggu sebelum Memandu?",
       body: [
         {
           type: "h1",
-          content: "Driving (Private)"
+          content: "Memandu (Peribadi)"
         },
         // {
         //   type: "img",
@@ -1130,23 +1137,23 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "You are required to:"
+          content: "Anda diminta untuk:"
         },
         {
           type: "p",
-          content: "- Undergo DARP > 1 month after stroke."
+          content: "- menjalani DARP > 1 bulan selepas strok."
         },
         {
           type: "p",
-          content: "- Pass DARP"
+          content: "- Lulus DARP"
         },
         {
           type: "p",
-          content: "- Have a final review by a neurologist."
+          content: "- Ada tinjauan terakhir oleh pakar neurologi."
         },
         {
           type: "h1",
-          content: "Driving (Vocational)"
+          content: "Memandu (Vokasional)"
         },
         // {
         //   type: "img",
@@ -1154,19 +1161,19 @@ export default Posts_ML = [
         // },
         {
           type: "p",
-          content: "You are required to:"
+          content: "Anda diminta untuk:"
         },
         {
           type: "p",
-          content: "- Pass DARP > 1 year after stroke"
+          content: "- Lulus DARP > 1 tahun selepas strok"
         },
         {
           type: "p",
-          content: "- Must be fully recovered"
+          content: "- Mesti pulih sepenuhnya"
         },
         {
           type: "p",
-          content: "- Have a final review by a neurologist."
+          content: "- Ada tinjauan terakhir oleh pakar neurologi.w"
         },
         // {
         //   type: "h1",

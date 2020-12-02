@@ -1134,7 +1134,7 @@ export default Posts_TA = [
           },
           {
             type: "p",
-            content: "- DARP DARP ஐ கடந்து செல்லுங்கள்"
+            content: "- DARP ஐ கடந்து செல்லுங்கள்"
           },
           {
             type: "p",

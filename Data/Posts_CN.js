@@ -2,13 +2,13 @@ export default Posts_CN = [
 	{
 	  type: "sections",
 	  thumbnail: require("../assets/Test2.png"),
-	  title: "Learning about Stroke",
+	  title: "了解中风",
 	  //subtitle: "What is a stroke?",
 	  body: [
 		{
 		  type: "details",
 		  thumbnail: require("../assets/Test2.png"),
-		  title: "About Stroke",
+		  title: "关于中风",
 		  subtitle: "什么是中风?",
 		  body: [
 			{
@@ -21,7 +21,7 @@ export default Posts_CN = [
 			},
 			{
 			  type: "h1",
-			  content: "How common is a Stroke?"
+			  content: "中风有多常见？"
 			},
 			{
 			  type: "img",
@@ -33,7 +33,7 @@ export default Posts_CN = [
 		  type: "details",
 		  thumbnail: require("../assets/Test3.png"),
 		  title: "中风的类型",
-		  subtitle: "What are the 2 types of strokes?",
+		  subtitle: "两种中风是什么？",
 		  body: [
 			{
 			  type: "h1",
@@ -90,11 +90,11 @@ export default Posts_CN = [
 		  type: "details",
 		  thumbnail: require("../assets/Test4.png"),
 		  title: "关于大脑",
-		  subtitle: "Different areas of the brain that can be affected by stroke.",
+		  subtitle: "中风可能会影响大脑的不同区域。",
 		  body: [
 			{
 			  type: "h1",
-			  content: "Brain Functions (Left)"
+			  content: "脑功能（左）"
 			},
 			{
 			  type: "img",
@@ -106,7 +106,7 @@ export default Posts_CN = [
 			},
 			{
 			  type: "h1",
-			  content: "Brain Functions (Right)"
+			  content: "脑功能（右）"
 			},
 			{
 			  type: "img",
@@ -129,7 +129,7 @@ export default Posts_CN = [
 	{
 	  type: "sections",
 	  thumbnail: require("../assets/Test9.png"),
-	  title: "Identifying a Stroke",
+	  title: "识别中风",
 	  //subtitle: "What is a stroke?",
 	  body: [
 		{
@@ -222,12 +222,12 @@ export default Posts_CN = [
 		{
 		  type: "details",
 		  thumbnail: require("../assets/Test11.png"),
-		  title: "Thinking F.A.S.T",
+		  title: "思维 F.A.S.T",
 		  subtitle: "How do you spot a Stroke?",
 		  body: [
 			{
 			  type: "h1",
-			  content: "Identifying a Stroke"
+			  content: "识别中风"
 			},
 			{
 			  type: "img",
@@ -235,7 +235,7 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "识别某人是否中风, 快速思考"
+			  content: "确定某人是否中风，请考虑F.A.S.T"
 			},
 		  ]
 		},
@@ -269,18 +269,18 @@ export default Posts_CN = [
 	{
 	  type: "sections",
 	  thumbnail: require("../assets/Risks.png"),
-	  title: "Managing the Risk",
+	  title: "管理风险",
 	  //subtitle: "What is a stroke?",
 	  body: [
 		{
 		  type: "details",
 		  thumbnail: require("../assets/Risks.png"),
-		  title: "Causes and risk factors",
-		  subtitle: "Here are some factors that may cause a stroke to occur:",
+		  title: "原因和危险因素",
+		  subtitle: "以下是一些可能导致中风的因素:",
 		  body: [
 			{
 			  type: "h1",
-			  content: "Risk Factors"
+			  content: "风险因素"
 			},
 			{
 			  type: "img",
@@ -288,47 +288,47 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "-	High Blood Pressure"
+			  content: "-	老年 "
 			},
 			{
 			  type: "p",
-			  content: "-	Old Age"
+			  content: "-	高血压"
 			},
 			{
 			  type: "p",
-			  content: "-	Smoking"
+			  content: "-	抽烟"
 			},
 			{
 			  type: "p",
-			  content: "-	Diabetes "
+			  content: "-	糖尿病"
 			},
 			{
 			  type: "p",
-			  content: "-	High Blood Cholesterol"
+			  content: "-	高胆固醇"
 			},
 			{
 			  type: "p",
-			  content: "-	Irregular Heartbeat"
+			  content: "-	心律不齐"
 			},
 			{
 			  type: "p",
-			  content: "-	Heart disease/Conditions"
+			  content: "-	心脏疾病/状况"
 			},
 			{
 			  type: "p",
-			  content: "-	Previous stroke or Transient Ischemic Attack (TIA/Mini-Stroke)"
+			  content: "-	先前的中风或短暂性脑缺血发作（TIA /小风）"
 			},
 		  ]
 		},
 		{
 		  type: "details",
 		  thumbnail: require("../assets/Risks2.png"),
-		  title: "Risk-factor controls",
-		  subtitle: "There are risk factors that you can control. These include:",
+		  title: "风险因素控制",
+		  subtitle: "您可以控制一些风险因素。这些包括:",
 		  body: [
 			{
 			  type: "h1",
-			  content: "High Cholesterol (Hyperlipidemia)"
+			  content: "高胆固醇（高血脂）"
 			},
 			{
 			  type: "img",
@@ -336,15 +336,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Having a diet high in saturated fats (animal fats) is the main cause of high cholesterol.  "
+			  content: "饮食中富含饱和脂肪（动物脂肪）是高胆固醇的主要原因。"
 			},
 			{
 			  type: "p",
-			  content: "High cholesterol has about two times the risk of heart disease, which is a contributor to stroke risk."
+			  content: "高胆固醇患心脏病的风险约为患心脏病风险的两倍。 "
 			},
 			{
 			  type: "h1",
-			  content: "High blood pressure (Hypertension)"
+			  content: "高血压"
 			},
 			{
 			  type: "img",
@@ -352,11 +352,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "The most important known risk factor for stroke."
+			  content: "最重要的已知中风危险因素。"
+			},
+			{
+				type: "p",
+				content: "不受控制的高血压会使中风的风险增加四倍。 "
 			},
 			{
 			  type: "h1",
-			  content: "Diabetes"
+			  content: "糖尿病"
 			},
 			{
 			  type: "img",
@@ -364,15 +368,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "The most important known risk factor for stroke."
+			  content: "长期无法控制的糖尿病会损害血管和神经。"
 			},
 			{
 			  type: "p",
-			  content: "Uncontrolled diabetes over a long period of time can cause damage to your blood vessels and nerves. The risk of stroke is 1.5 times more in diabetic patients"
+			  content: "糖尿病患者中风的风险高1.5倍。 "
 			},
 			{
 			  type: "h1",
-			  content: "Smoking:"
+			  content: "抽烟:"
 			},
 			{
 			  type: "img",
@@ -380,15 +384,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "May increase your risk of stroke by 1.5 to 2.5 times."
+			  content: "可能使中风的风险增加1.5到2.5倍。 "
 			},
 			{
 			  type: "p",
-			  content: "Your risk of stroke will be equivalent to that of a non-smoker after five years of quitting."
+			  content: "戒烟五年后，中风的风险将等于不吸烟的风险。"
 			},
 			{
 			  type: "h1",
-			  content: "Irregular heartbeat: (Atrial Fibrillation) "
+			  content: "心律不齐:（心房颤动）"
 			},
 			{
 			  type: "img",
@@ -396,15 +400,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "During irregular heartbeat, the heart does not completely pump and empty blood smoothly. "
+			  content: "在心律不齐的情况下，心脏无法完全抽血并顺利排空血液。"
 			},
 			{
 			  type: "p",
-			  content: "This increases the risk of blood clots forming in the heart and travelling to the brain. Atrial Fibrillation increases the risk of stroke by five times."
+			  content: "这会增加心脏中形成血栓并进入大脑的风险。心房颤动使中风的风险增加五倍。"
 			}, 
 			{
 			  type: "h1",
-			  content: "Unhealthy lifestyle:"
+			  content: "不健康的生活方式:"
 			},
 			{
 			  type: "img",
@@ -412,7 +416,7 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Being sedentary, having an unhealthy diet, obesity and excessive alcohol consumption can increase the risk of high blood pressure, high cholesterol, diabetes, heart disease and further strokes."
+			  content: "久坐不动，饮食不健康，肥胖和过量饮酒会增加患高血压，高胆固醇，糖尿病，心脏病和中风的风险。"
 			},
 		  ]
 		},
@@ -423,17 +427,17 @@ export default Posts_CN = [
 	{
 	  type: "sections",
 	  thumbnail: require("../assets/Hospital.png"),
-	  title: "The Hospital Journey",
+	  title: "医院之旅",
 	  //subtitle: "What is a stroke?",
 	  body: [
 		{
 		  thumbnail: require("../assets/ScreeningInv.png"),
-		  title: "Screening & Investigation",
-		  subtitle: "What happens to a Stroke patient in the hospital? ",
+		  title: "筛选与调查",
+		  subtitle: "医院中风患者怎么办？",
 		  body: [
 			{
 			  type: "h1",
-			  content: "Screening:"
+			  content: "筛选:"
 			},
 			{
 			  type: "img",
@@ -441,11 +445,11 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "-	You will be assessed by stroke care team members, followed by an appropriate referral to a healthcare professional."
+			  content: "-	中风护理团队成员将对您进行评估，然后适当地推荐给医疗保健专业人员。"
 			},
 			{
 			  type: "h1",
-			  content: "Investigation:"
+			  content: "调查:"
 			},
 			{
 			  type: "img",
@@ -453,11 +457,11 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "You will undergo various tests. Read below to find out more."
+			  content: "-	您将接受各种测试。单击下面的每个测试以了解更多信息。"
 			},
 			{
 			  type: "h1",
-			  content: "Brain scan:"
+			  content: "脑部扫描:"
 			},
 			{
 			  type: "img",
@@ -465,15 +469,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Identify the type, location, and size of the stroke area"
+			  content: "确定笔划区域的类型，位置和大小。"
 			},
 			{
 			  type: "p",
-			  content: "Computerised Tomography (CT) scan or magnetic resonance imaging (MRI) scan are used "
+			  content: "使用计算机断层扫描（CT）扫描或磁共振成像(MRI）扫描。"
 			},
 			{
 			  type: "h1",
-			  content: "Ultrasound"
+			  content: "超声检查"
 			},
 			{
 			  type: "img",
@@ -481,11 +485,11 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Scans the Blood vessels in the neck and brain to assess the brain’s blood supply."
+			  content: "扫描脖子和大脑的血管，以评估大脑的血液供应。 "
 			},
 			{
 			  type: "h1",
-			  content: "Heart tests (3 Types)"
+			  content: "心脏测试 (三种类型)"
 			},
 			{
 			  type: "img",
@@ -493,19 +497,19 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Electrocardiogram (ECG), checks for any abnormal heart rhythm."
+			  content: "心电图（ECG）：检查是否有异常的心律。"
 			},
 			{
 			  type: "p",
-			  content: "Echocardiogram, Ultrasound test that checks for the presence of clots. Checks for abnormal communications between the chambers of the heart."
+			  content: "超声心动图: 超声检查，检查是否存在凝块。 检查心脏各腔之间的通讯异常。"
 			},
 			{
 			  type: "p",
-			  content: "Holter, which checks for any heart rhythm problems over 1 or 2 days."
+			  content: "动态心电图：在一两天内检查是否有心律问题。"
 			},
 			{
 			  type: "h1",
-			  content: "Blood tests"
+			  content: "验血"
 			},
 			{
 			  type: "img",
@@ -513,22 +517,22 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Finds any new risk factors and measures your blood count"
+			  content: "发现任何新的危险因素并测量您的血球计数"
 			},
 			{
 			  type: "p",
-			  content: "Checks function of other organs (kidney, liver etc)"
+			  content: "检查其他器官的功能（肾脏，肝脏等）"
 			},
 		  ]
 		},
 		{
 		  thumbnail: require("../assets/Monitoring.png"),
-		  title: "Monitoring",
-		  subtitle: "During your hospital stay",
+		  title: "监控",
+		  subtitle: "在您住院期间",
 		  body: [
 			{
 			  type: "h1",
-			  content: "Monitoring"
+			  content: "监控"
 			},
 			// {
 			//   type: "img",
@@ -536,15 +540,15 @@ export default Posts_CN = [
 			// },
 			{
 			  type: "p",
-			  content: "You will be monitored during your hospital stay."
+			  content: "您将在住院期间受到监视。"
 			},
 			{
 			  type: "p",
-			  content: "This includes blood pressure checks and assessment of your stroke signs every few hours."
+			  content: "这包括每隔几个小时进行一次血压检查和中风征象评估。"
 			},
 			{
 			  type: "h1",
-			  content: "Medication"
+			  content: "药物"
 			},
 			// {
 			//   type: "img",
@@ -552,15 +556,15 @@ export default Posts_CN = [
 			// },
 			{
 			  type: "p",
-			  content: "Please take your medicine as prescribed by your doctor accordingly."
+			  content: "请按照医生的指示服药。"
 			},
 			{
 			  type: "p",
-			  content: "Inform your stroke care team should you be taking any other medication."
+			  content: "如果您正在服用其他药物，请通知您的中风护理团队。 "
 			},
 			{
 			  type: "h1",
-			  content: "Early mobilization"
+			  content: "早期动员"
 			},
 			// {
 			//   type: "img",
@@ -568,15 +572,15 @@ export default Posts_CN = [
 			// },
 			{
 			  type: "p",
-			  content: "Your stroke care team will encourage early mobilization when it is safe to do so. "
+			  content: "您的中风护理团队会在安全的情况下鼓励早期动员。"
 			},
 			{
 			  type: "p",
-			  content: "Your safety is our priority, always ask for assistance if needed."
+			  content: "您的安全是我们的首要任务，如有需要，请始终寻求帮助。"
 			},
 			{
 			  type: "h1",
-			  content: "Screening and Preventions of complications after acute stroke."
+			  content: "急性中风后的筛查和并发症预防。"
 			},
 			// {
 			//   type: "img",
@@ -584,18 +588,18 @@ export default Posts_CN = [
 			// },
 			{
 			  type: "p",
-			  content: "You will be monitored closely during your hospital stay for any complications after an acute stroke."
+			  content: "急性中风后，您将在住院期间密切监测是否有任何并发症。"
 			},
 		  ]
 		},
 		{
 		  thumbnail: require("../assets/Treatment.png"),
-		  title: "Treatment",
-		  subtitle: "How do you reduce the risk of another stroke? Here are a few methods:",
+		  title: "治疗",
+		  subtitle: "如何减少再次中风的风险？ 以下是一些方法:",
 		  body: [
 			{
 			  type: "h1",
-			  content: "Anti-platelets"
+			  content: "抗血小板"
 			},
 			{
 			  type: "img",
@@ -603,27 +607,27 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "What is a Platelet?"
+			  content: "什么是血小板？"
 			},
 			{
 			  type: "p",
-			  content: "Your platelets are very large cells in your body that help form blood clots to slow or stop bleeding in your wounds."
+			  content: "血小板是体内非常大的细胞，有助于形成血凝块，从而减缓或阻止伤口出血。"
 			},
 			{
 			  type: "p",
-			  content: "Why use Anti-Platelets?"
+			  content: "为什么要使用抗血小板？ "
 			},
 			{
 			  type: "p",
-			  content: "Anti-Platelets makes the blood 'less sticky' by preventing platelets from sticking together to form a blood clot. "
+			  content: "抗血小板通过防止血小板粘在一起形成血凝块，使血液“不粘”。 "
 			},
 			{
 			  type: "p",
-			  content: "Examples include: Clopidogel, Aspirin, Dipyridamole."
+			  content: "例如：氯吡格雷，阿司匹林，双嘧达莫 ."
 			},
 			{
 			  type: "h1",
-			  content: "Anti-Coagulants"
+			  content: "抗凝物"
 			},
 			{
 			  type: "img",
@@ -631,19 +635,19 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "What does it do?"
+			  content: "它有什么作用？"
 			},
 			{
 			  type: "p",
-			  content: "It is blood thinner that helps prevent the formation of new blood clots and prevents existing blood clots from getting larger."
+			  content: "血液稀释剂有助于防止新的血块形成，并防止现有的血块变大。"
 			},
 			{
 			  type: "p",
-			  content: "Example: Warfarin, Novel-Oral Anticoagulants (Rivaroxaban, Dabigatran and Apixaban)."
+			  content: "例如：华法林，新型口服抗凝药（利伐罗班，达比加群和阿哌沙班）"
 			},
 			{
 			  type: "h1",
-			  content: "Cholesterol-lowering medicines"
+			  content: "降胆固醇药物"
 			},
 			{
 			  type: "img",
@@ -651,15 +655,15 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Cholesterol-lowering medicine lowers your cholesterol level and helps reduce risk of stroke and heart diseases"
+			  content: "降低胆固醇的药物可降低胆固醇水平，并有助于降低中风和心脏病的风险。 "
 			},
 			{
 			  type: "p",
-			  content: "Example: Simvastatin, Atorvastatin, Rosuvastatin, Ezetimibe, Feno"
+			  content: "例如：辛伐他汀，阿托伐他汀，瑞舒伐他汀，依泽替米贝，非诺."
 			},
 			{
 			  type: "h1",
-			  content: "Lifestyle modification"
+			  content: "生活方式的改变"
 			},
 			{
 			  type: "img",
@@ -667,35 +671,35 @@ export default Posts_CN = [
 			},
 			{
 			  type: "p",
-			  content: "Here are some changes that will significantly help reduce your risk of a stroke:"
+			  content: "这里有一些改变将极大地帮助您减少中风的风险："
 			},
 			{
 			  type: "p",
-			  content: "-	Quit smoking."
+			  content: "-	戒烟."
 			},
 			{
 			  type: "p",
-			  content: "-	Limit alcohol consumption"
+			  content: "-	限制饮酒。"
 			},
 			{
 			  type: "p",
-			  content: "-	Have a healthy and well-balanced diet."
+			  content: "-	保持健康均衡的饮食。 "
 			},
 			{
 			  type: "p",
-			  content: "-	Exercise regularly."
+			  content: "-	经常锻炼。"
 			},
 			{
 			  type: "p",
-			  content: "-	Maintain healthy body weight."
+			  content: "-	保持健康的体重。 "
 			},
 			{
 			  type: "p",
-			  content: "-	Take your medications as prescribed by your doctor."
+			  content: "-	按照医生的处方服药。 "
 			},
 			{
 			  type: "p",
-			  content: "-	Attend medical appointments with your doctor as scheduled."
+			  content: "-	按计划与您的医生进行医疗预约。"
 			},
 		  ]
 		},
@@ -704,17 +708,17 @@ export default Posts_CN = [
 	{
 	  type: "sections",
 	  thumbnail: require("../assets/AfterStroke.png"),
-	  title: "Life after Stroke",
+	  title: "中风后的生活",
 	  //subtitle: "What is a stroke?",
 	  body: [
 	{
 	  thumbnail: require("../assets/AfterStroke.png"),
-	  title: "Discharge Planning",
-	  subtitle: "How do you reduce the risk of another stroke? Here are a few methods:",
+	  title: "出院计划",
+	  subtitle: "您如何减少再次中风的风险？ 以下是一些方法：",
 	  body: [
 		{
 		  type: "h1",
-		  content: "Your Stroke Team"
+		  content: "您的中风队"
 		},
 		{
 		  type: "img",
@@ -722,46 +726,46 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "To safely transition from an acute care facility to rehabilitation, an outpatient setting and upon discharge home."
+		  content: "从急诊设施安全过渡到康复，门诊和出院时。"
 		},
 		{
 		  type: "p",
-		  content: "Your stroke team will:"
+		  content: "您的中风团队将:"
 		},
 		{
 		  type: "p",
-		  content: "1) Formulate a discharge plan to discuss with patient and family."
+		  content: "1) 制定出院计划，与患者和家人讨论。"
 		},
 		{
 		  type: "p",
-		  content: "2) Understand your own and family needs."
+		  content: "2) 了解您自己和家人的需求。"
 		},
 		{
 		  type: "p",
-		  content: "3) Identify your rehab goals and functional abilities."
+		  content: "3）确定您的康复目标和功能能力。 "
 		},
 		{
 		  type: "p",
-		  content: "4) If you are unable to achieve independence, your nurse is to explore on:"
+		  content: "4）如果您无法实现独立，您的护士将继续以下工作:"
 		},
 		{
 		  type: "p",
-		  content: "- Care-giver issue, need for home care services."
+		  content: "-	照顾者问题，需要家庭照顾服务。 "
 		},
 		{
 		  type: "p",
-		  content: "- Need for any community resources."
+		  content: "-	需要任何社区资源。"
 		},
 	  ]
 	},
 	{
 	  thumbnail: require("../assets/Impact.png"),
-	  title: "Impact of Stroke",
-	  subtitle: "The effects of having a Stroke",
+	  title: "中风的影响",
+	  subtitle: "中风的影响",
 	  body: [
 		{
 		  type: "h1",
-		  content: "Effect on mobility and activities"
+		  content: "日常生活的活动性和活动性"
 		},
 		{
 		  type: "img",
@@ -769,19 +773,19 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "- Weakness on one side of your body."
+		  content: "- 身体一 侧无力。"
 		},
 		{
 		  type: "p",
-		  content: "- Trouble with balance."
+		  content: "- 平衡问题。"
 		},
 		{
 		  type: "p",
-		  content: "You may have difficulty carrying out daily routines such as feeding, showering, and dressing."
+		  content: "您可能难以进行日常工作，例如进食，洗澡和穿衣。 "
 		},
 		{
 		  type: "h1",
-		  content: "Nutrition"
+		  content: "营养"
 		},
 		{
 		  type: "img",
@@ -789,19 +793,19 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "A stroke may limit a person’s nutritional health because it limits their ability to perform daily tasks associated with eating and swallowing."
+		  content: "中风可能会限制人的营养健康，因为它会限制他们执行与饮食和吞咽相关的日常任务的能力。 "
 		},
 		{
 		  type: "p",
-		  content: "You may need to be on a special food consistency or nasogastric tube feeding diet. "
+		  content: "您可能需要采用特殊的食物稠度或鼻胃管喂养饮食。"
 		},
 		{
 		  type: "p",
-		  content: "Supplements may also be prescribed to meet your daily nutritional requirements."
+		  content: "还可以开一些补品以满足您的日常营养需求。"
 		},
 		{
 		  type: "h1",
-		  content: "Cognition Impairment:"
+		  content: "认知障碍:"
 		},
 		{
 		  type: "img",
@@ -809,19 +813,19 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "What is Cognition Impairment?"
+		  content: "什么是认知障碍?"
 		},
 		{
 		  type: "p",
-		  content: "A person with cognition impairment will have trouble remembering, learning new things, concentrating or make decisions. "
+		  content: "有认知障碍的人将难以记住，学习新事物，专心或决策。"
 		},
 		{
 		  type: "p",
-		  content: "As a result of stroke, you may experience these difficulties which can affect your daily life."
+		  content: "中风可能会导致这些困难，影响您的日常生活。"
 		},
 		{
 		  type: "h1",
-		  content: "Continence (Bowel and bladder movements)"
+		  content: "节制 (肠和膀胱运动)"
 		},
 		{
 		  type: "img",
@@ -829,15 +833,15 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "You may have trouble controlling your bladder or bowel movements."
+		  content: "您可能无法控制膀胱或肠蠕动。"
 		},
 		{
 		  type: "p",
-		  content: "This may be due to the damage in the brain or the reduction in mobility."
+		  content: "这可能是由于大脑受损或行动不便引起的。"
 		},
 		{
 		  type: "h1",
-		  content: "Emotional changes and tiredness"
+		  content: " 情绪变化和疲倦"
 		},
 		{
 		  type: "img",
@@ -845,19 +849,19 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "Feelings of fatigue, anxiety, anger, or depression are common after stroke."
+		  content: "中风后常见疲劳，焦虑，愤怒或沮丧的感觉。"
 		},
 		{
 		  type: "p",
-		  content: "These are normal responses. However in some extreme cases, they may require specific treatment."
+		  content: "这些可能是对已发生事件的正常反应。在某些极端情况下，他们可能需要特殊治疗。"
 		},
 		{
 		  type: "p",
-		  content: "Do inform your stroke care team if you are experiencing these symptoms."
+		  content: "如果您遇到这些症状，请告知您的中风护理团队。"
 		},
 		{
 		  type: "h1",
-		  content: "Behavioral and personality changes"
+		  content: "行为和个性"
 		},
 		{
 		  type: "img",
@@ -865,35 +869,35 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "A stroke may create behavioral and personality changes due to damage to the brain."
+		  content: "中风可能会因大脑受损而导致行为和性格改变。"
 		},
 		{
 		  type: "p",
-		  content: "Behavioral and personality changes include:"
+		  content: "行为和性格改变包括:"
 		},
 		{
 		  type: "p",
-		  content: "- Aggression"
+		  content: "- 侵略"
 		},
 		{
 		  type: "p",
-		  content: "- Apathy (lack of interest)"
+		  content: "- 冷漠（缺乏兴趣）"
 		},
 		{
 		  type: "p",
-		  content: "- Emotional liability (strong emotions)"
+		  content: "- 禁忌（缺乏约束）"
 		},
 		{
 		  type: "p",
-		  content: "- Irritability "
+		  content: "- 烦躁"
 		},
 		{
 		  type: "p",
-		  content: "- Impulsivity"
+		  content: "- 冲动 "
 		},
 		{
 		  type: "p",
-		  content: "- Disinhibition (lack of restraint)"
+		  content: "- 情感责任（强烈的情感）"
 		},
 		// {
 		//   type: "h1",
@@ -913,7 +917,7 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "h1",
-		  content: "Sexual activity"
+		  content: "性活动"
 		},
 		{
 		  type: "img",
@@ -921,11 +925,11 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "You may feel worried about engaging in physical intimacy or have a physical impairment that affects intimacy."
+		  content: "您可能会担心要进行身体上的亲密接触或感到身体上的不适而影响亲密感。"
 		},
 		{
 		  type: "h1",
-		  content: "Social activities"
+		  content: "社交活动"
 		},
 		{
 		  type: "img",
@@ -933,18 +937,18 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "The consequences of stroke may restrict your ability to engage your usual social activities."
+		  content: "中风的后果可能会限制您进行日常社交活动的能力。"
 		},
 	  ]
 	},
 	{
 	  thumbnail: require("../assets/Complications.png"),
-	  title: "Complications after Stroke",
-	  subtitle: "Possible medical complications after having a Stroke",
+	  title: "中风后的并发症",
+	  subtitle: "中风后可能的医疗并发症",
 	  body: [
 		{
 		  type: "h1",
-		  content: "Contractures"
+		  content: "挛缩"
 		},
 		// {
 		//   type: "img",
@@ -952,19 +956,19 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "What is a contracture?"
+		  content: "什么是挛缩？"
 		},
 		{
 		  type: "p",
-		  content: "A contracture is the shortening or hardening of muscles or other tissue, leading to deformity and rigidity of joints (eg cerebral palsy)."
+		  content: "挛缩是肌肉或其他组织的缩短或变硬，导致关节变形和僵硬(例如脑瘫)。 "
 		},
 		{
 		  type: "p",
-		  content: "Contractures usually occur due to brain damage and irreversible contraction and of the muscles."
+		  content: "挛缩通常是由于脑部损伤和不可逆的肌肉收缩而发生的。 "
 		},
 		{
 		  type: "h1",
-		  content: "Infection"
+		  content: "感染"
 		},
 		// {
 		//   type: "img",
@@ -972,15 +976,15 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "Improper swallowing may result in food or fluids entering the lungs, leading to pneumonia."
+		  content: "吞咽不当可能导致食物或液体进入肺部，导致肺炎。"
 		},
 		{
 		  type: "p",
-		  content: "Poor hygiene care of the genital area may also cause urinary tract infection."
+		  content: "生殖器部位卫生差，也可能导致尿路感染。  "
 		},
 		{
 		  type: "h1",
-		  content: "Pressure sores"
+		  content: "压疮"
 		},
 		// {
 		//   type: "img",
@@ -988,11 +992,11 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "Constant pressure over certain body parts from reduced mobility may cause the skin over that area to break down."
+		  content: "行动不便导致某些身体部位持续受压，可能导致该部位的皮肤破裂。 "
 		},
 		{
 		  type: "h1",
-		  content: "Deep vein thrombosis"
+		  content: "深静脉血栓形成"
 		},
 		// {
 		//   type: "img",
@@ -1000,19 +1004,19 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "What is deep vein thrombosis?"
+		  content: "什么是深静脉血栓形成？"
 		},
 		{
 		  type: "p",
-		  content: "It is a blood clot that forms in a vein deep in the body."
+		  content: "它是在体内深处的静脉中形成的血块。"
 		},
 		{
 		  type: "p",
-		  content: "May occur in veins of the legs because of reduced mobility after stroke."
+		  content: "M由于中风后活动能力降低，可能会出现在腿部静脉中。 "
 		},
 		{
 		  type: "h1",
-		  content: "Muscle spasticity"
+		  content: "肌肉痉挛"
 		},
 		// {
 		//   type: "img",
@@ -1020,15 +1024,15 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "What are muscle spasms?"
+		  content: "什么是肌肉痉挛？"
 		},
 		{
 		  type: "p",
-		  content: "Also know as muscle cramps, it is when your muscles become tense and contract abnormally leading to pain."
+		  content: "也称为肌肉抽筋， 这是当您的肌肉变得紧张和收缩异常导致疼痛时。 "
 		},
 		{
 		  type: "h1",
-		  content: "Seizures"
+		  content: "癫痫发作"
 		},
 		// {
 		//   type: "img",
@@ -1036,19 +1040,19 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "Damaged brain cells from stroke may lead to abnormal, uncontrolled electrical activity in the brain."
+		  content: "中风导致的脑细胞受损可能导致大脑异常，不受控制的电活动。"
 		},
 		{
 		  type: "p",
-		  content: "It can cause changes in your behavior, movements or feelings, and in levels of consciousness. It may even cause convulsions."
+		  content: "它可能导致您的行为，动作或感觉以及意识水平发生变化。甚至可能引起抽搐。 "
 		},
 		{
 		  type: "p",
-		  content: "Convulsions – Body Muscles contract and relax rapidly and repeatedly, leading to uncontrolled actions of the body."
+		  content: "抽搐 – 身体肌肉快速反复收缩和放松，导致身体不受控制的动作。 "
 		},
 		{
 		  type: "h1",
-		  content: "Shoulder subluxation"
+		  content: "肩关节半脱位"
 		},
 		// {
 		//   type: "img",
@@ -1056,15 +1060,15 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "Subluxation - Partial dislocation of a joint. "
+		  content: "肩部半脱位 - 半脱位 – 关节部分脱位。"
 		},
 		{
 		  type: "p",
-		  content: "May occur when there is a lack of support in an arm due to weakness."
+		  content: "由于虚弱而导致手臂缺乏支撑时，可能会发生这种情况。"
 		},
 		{
 		  type: "p",
-		  content: "Arm hanging leads to pulling the arm off from the shoulder joint."
+		  content: "手臂悬挂会导致手臂从肩关节拉出。"
 		},
 	  ]
 	},
@@ -1073,17 +1077,17 @@ export default Posts_CN = [
 	{
 	  type: "sections",
 	  thumbnail: require("../assets/Help.png"),
-	  title: "Help & Resources",
+	  title: "帮助与资源",
 	  //subtitle: "What is a stroke?",
 	  body: [
 	{
 	  thumbnail: require("../assets/Help.png"),
-	  title: "Rehabilitation Process",
-	  subtitle: "Processes that benefit Post Stroke Patients",
+	  title: "康复过程",
+	  subtitle: "这个过程使大多数中风后的患者受益。",
 	  body: [
 		{
 		  type: "h1",
-		  content: "Rehabilitation"
+		  content: "康复的目标是"
 		},
 		{
 		  type: "img",
@@ -1091,19 +1095,19 @@ export default Posts_CN = [
 		},
 		{
 		  type: "p",
-		  content: "Rehabilitation aims to:"
+		  content: "康复的目标是:"
 		},
 		{
 		  type: "p",
-		  content: "1) Improve your ability to perform usual functions."
+		  content: "1）提高执行常规功能的能力。"
 		},
 		{
 		  type: "p",
-		  content: "2) Reduce complications after a stroke."
+		  content: "2）减少中风后的并发症。 "
 		},
 		{
 		  type: "p",
-		  content: "You and your family members should be actively involved in the rehabilitation process."
+		  content: "您和您的家人应积极参与康复过程。 "
 		},
 		// {
 		//   type: "h1",
@@ -1133,12 +1137,12 @@ export default Posts_CN = [
 	},
 	{
 	  thumbnail: require("../assets/Car.png"),
-	  title: "Post Stroke Guidelines (Driving)",
-	  subtitle: "How long to wait before Driving?",
+	  title: "中风后指南（驾驶）",
+	  subtitle: "开车要等多久？",
 	  body: [
 		{
 		  type: "h1",
-		  content: "Driving (Private)"
+		  content: "驾驶（私人）"
 		},
 		// {
 		//   type: "img",
@@ -1146,23 +1150,23 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "You are required to:"
+		  content: " 您需要:"
 		},
 		{
 		  type: "p",
-		  content: "- Undergo DARP > 1 month after stroke."
+		  content: "- 接受 DARP > 中风后1个月。"
 		},
 		{
 		  type: "p",
-		  content: "- Pass DARP"
+		  content: "- 通过 DARP "
 		},
 		{
 		  type: "p",
-		  content: "- Have a final review by a neurologist."
+		  content: "- 由神经科医生进行最终审查。"
 		},
 		{
 		  type: "h1",
-		  content: "Driving (Vocational)"
+		  content: "驾驶（职业)"
 		},
 		// {
 		//   type: "img",
@@ -1170,19 +1174,19 @@ export default Posts_CN = [
 		// },
 		{
 		  type: "p",
-		  content: "You are required to:"
+		  content: "您需要:"
 		},
 		{
 		  type: "p",
-		  content: "- Pass DARP > 1 year after stroke"
+		  content: "- 通过 DARP > 中风后1年以上。 "
 		},
 		{
 		  type: "p",
-		  content: "- Must be fully recovered"
+		  content: "- 必须完全恢复。 "
 		},
 		{
 		  type: "p",
-		  content: "- Have a final review by a neurologist."
+		  content: "- 由神经科医生进行最终检查。"
 		},
 		// {
 		//   type: "h1",

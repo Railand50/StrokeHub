@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, View, Image, Text } from 'react-native';
+import { StyleSheet, SafeAreaView, View, Text } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
 import { DetailsHeader, DetailsImage, DetailsParagraph } from "../Components/DetailsComponents";
 
-const DetailsScreen = ({ navigation, route }) => {
+const DetailsScreen = ({ route }) => {
 	const props = route.params;
 
 	const body = props.body.map(item => {
@@ -22,9 +22,6 @@ const DetailsScreen = ({ navigation, route }) => {
 
 		<SafeAreaView style={styles.safeArea}>
 			<ScrollView>
-				{/* <View style={styles.imageWrapper}>
-					<Image style={styles.thumbnail} resizeMode='contain' source={props.thumbnail} />
-				</View> */}
 				<View style={styles.header}>
 					<Text style={styles.title}>{props.title}</Text>
 					<Text style={styles.subtitle}>{props.subtitle}</Text>

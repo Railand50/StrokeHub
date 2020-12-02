@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, Image } from 'react-native';
+import { StyleSheet, Text, } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const LanguageCell = (props) => {

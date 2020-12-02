@@ -1,6 +1,5 @@
 import React from 'react';
 import { SafeAreaView, FlatList } from 'react-native';
-import { roundToNearestPixel } from 'react-native/Libraries/Utilities/PixelRatio';
 import SectionCell from "../Components/SectionCell";
 
 

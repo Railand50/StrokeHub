@@ -76,6 +76,18 @@ export default Posts_EN = [
             type: "img",
             content: require("../assets/cerebral2.png"),
           },
+          {
+            type: "h1",
+            content: "Transient Ischaemic stroke"
+          },
+          {
+            type: "p",
+            content: "Occurs when there is a temporary interruption of blood supply to the brain. "
+          },
+          {
+            type: "p",
+            content: "There is no permanent brain damage and symptoms go away within a few minutes."
+          },
         ]
       },
       {
@@ -353,10 +365,6 @@ export default Posts_EN = [
           {
             type: "img",
             content: require("../assets/Diabetes.png"),
-          },
-          {
-            type: "p",
-            content: "The most important known risk factor for stroke."
           },
           {
             type: "p",
